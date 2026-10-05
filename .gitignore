@@ -1,6 +1,6 @@
 # See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-# compiled output
+# Compiled output
 dist
 tmp
 out-tsc
@@ -8,7 +8,7 @@ out-tsc
 .expo
 .expo-shared
 
-# dependencies
+# Dependencies
 node_modules
 
 # IDEs and editors
@@ -27,7 +27,7 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# misc
+# Misc
 /.sass-cache
 /connect.lock
 /coverage
@@ -37,14 +37,15 @@ yarn-error.log
 testem.log
 /typings
 
-# System Files
+# System files
 .DS_Store
 Thumbs.db
 
+# Cursor
 .cursor/rules/nx-rules.mdc
+
+# GitHub
 .github/instructions/nx.instructions.md
-
-
 
 # Environment variables
 .env
@@ -53,6 +54,3 @@ Thumbs.db
 
 # Build output
 build/
-
-# Replit generated files
-.conversation/
